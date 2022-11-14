@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avalie Sua Mentoria</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+
+  <body>
+    <div class="header__bg">
+      <div class="header">
+        <h1>AVALIE SUA MENTORIA</h1>
+        <p>Chegou a hora de avaliar o seu mentor. Bora lá?</p>
+        <img src="./assets/img1.png" alt="">
+        <div class="header__bg2">
+          <h2>INFORMAÇÕES PESSOAIS</h2>
+        </div>
+      </div>
+    </div>
+    <div class="form__bg">
+      <form action="">
+        <div class="personal__info">
+          <div class="name">
+            <label for="">Nome</label>
+            <input type="text" />
+          </div>
+          <div class="surName">
+            <label for="">Sobrenome</label>
+            <input type="text" />
+          </div>
+          <div>
+            <label for="">Email <span>(digite um email válido)</span></label>
+            <input type="text" class="input2" />
+          </div>
+        </div>
+        <h2>INFORMAÇÕES DO MENTOR</h2>
+        <div class="mentor__info">
+          <div class="divisor" />
+          <label for="" id="label">Selecione quem foi o seu mentor</label>
+          <input type="text" id="mentor" />
+          <label for="">Feedback sobre o mentor</label>
+          <input type="text" id="feedback" />
+          <input type="checkbox" id="checkbox" />
+          <p>Todas as minhas dúvidas foram esclarecidas durante a matéria.</p>
+        </div>
+        <div class="date">
+          <h2>AGENDANDO A PRÓXIMA MENTORIA</h2>
+          <div class="divisor" />
+          <div class="mentor__date__wrapper">
+            <div class="mentor__date">
+              <label for="">Data <span>(DD/MM/AAAA)</span></label>
+              <input type="date" />
+            </div>
+            <div class="time">  
+              <label for="">Das</label>
+              <input type="time" />
+            </div>
+            <div class="time">
+              <label for="">Até</label>
+              <input type="time">
+            </div>
+          </div>  
+        </div>
+        <button>SALVAR</button>
+      </form>
+    </div>
+  </body>
+</html>
